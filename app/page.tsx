@@ -58,7 +58,7 @@ export default function LandingPage() {
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="text-lg px-8" asChild>
-                  <Link href="#download">
+                  <Link href="https://drive.google.com/file/d/1q-_Q07lBgg8f0S_B11nVOp8cIu-FAAbx/view?usp=drive_link" target="_blank">
                     Download for Android
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
@@ -199,7 +199,7 @@ export default function LandingPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" variant="secondary" className="text-lg px-8" asChild>
-                  <Link href="#">
+                  <Link href="https://drive.google.com/file/d/1q-_Q07lBgg8f0S_B11nVOp8cIu-FAAbx/view?usp=drive_link" target="_blank">
                     Download for Android
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
