@@ -6,7 +6,9 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "eslint .",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "next build && npx wrangler deploy",
+    "deploy:preview": "next build && npx wrangler deploy --env preview"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

@@ -8,25 +8,11 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "our-pot - Split Bills Effortlessly",
-  description: "The modern way to track shared expenses with friends and roommates",
-  generator: "v0.app",
+  title: "our-pot - AI-Assisted Expense Tracking",
+  description: "Your AI assistant for the household pot. Stop the tedious manual entry - our AI proposes expense entries for you to review and approve.",
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
+    icon: "/our-pot-icon-32x32.png",
+    apple: "/our-pot-icon.png",
   },
 }
 
