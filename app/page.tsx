@@ -71,6 +71,17 @@ export default function LandingPage() {
                   iOS Coming Soon
                 </Button>
               </div>
+
+              <p className="mt-6 text-sm text-muted-foreground">
+                Already an approved tester?{" "}
+                <Link
+                  href="https://drive.google.com/file/d/1q-_Q07lBgg8f0S_B11nVOp8cIu-FAAbx/view?usp=drive_link"
+                  target="_blank"
+                  className="underline underline-offset-4 hover:text-foreground transition-colors"
+                >
+                  Direct APK download
+                </Link>
+              </p>
             </div>
           </div>
         </section>
@@ -212,6 +223,17 @@ export default function LandingPage() {
                   iOS Coming Soon
                 </Button>
               </div>
+
+              <p className="mt-6 text-sm text-primary-foreground/70">
+                Already an approved tester?{" "}
+                <Link
+                  href="https://drive.google.com/file/d/1q-_Q07lBgg8f0S_B11nVOp8cIu-FAAbx/view?usp=drive_link"
+                  target="_blank"
+                  className="underline underline-offset-4 hover:text-primary-foreground transition-colors"
+                >
+                  Direct APK download
+                </Link>
+              </p>
             </Card>
           </div>
         </section>
