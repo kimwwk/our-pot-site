@@ -37,7 +37,7 @@ export default function PrivacyPage() {
 
       <footer className="border-t border-border py-8 mt-16">
         <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
-          <p>© 2026 1001560779 Ontario Inc. All rights reserved.</p>
+          <p>© 2026 Kivov Digital. All rights reserved.</p>
         </div>
       </footer>
     </div>

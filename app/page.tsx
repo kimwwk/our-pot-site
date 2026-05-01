@@ -276,7 +276,7 @@ export default function LandingPage() {
 
           <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
             <p>Support: support@our-pot.com</p>
-            <p className="mt-2">&copy; 2026 1001560779 Ontario Inc. All rights reserved.</p>
+            <p className="mt-2">&copy; 2026 Kivov Digital. All rights reserved.</p>
           </div>
         </div>
       </footer>
