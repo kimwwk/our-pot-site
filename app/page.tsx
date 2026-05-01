@@ -57,7 +57,7 @@ export default function LandingPage() {
               </p>
 
               <p className="text-base text-muted-foreground mb-10 text-pretty max-w-2xl mx-auto">
-                We&apos;re currently in Google Play closed testing — click below to join the waitlist for early access.
+                Click below to join the waitlist for early access.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -79,7 +79,7 @@ export default function LandingPage() {
                   target="_blank"
                   className="underline underline-offset-4 hover:text-foreground transition-colors"
                 >
-                  Direct APK download
+                  Direct download
                 </Link>
               </p>
             </div>
@@ -231,7 +231,7 @@ export default function LandingPage() {
                   target="_blank"
                   className="underline underline-offset-4 hover:text-primary-foreground transition-colors"
                 >
-                  Direct APK download
+                  Direct download
                 </Link>
               </p>
             </Card>
