@@ -42,7 +42,7 @@ export default function LandingPage() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
                 </span>
-                Now available on Android
+                In Google Play closed testing
               </div>
 
               <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance leading-tight">
@@ -51,15 +51,19 @@ export default function LandingPage() {
                 <span className="text-primary">for the household pot</span>
               </h1>
 
-              <p className="text-xl text-muted-foreground mb-10 text-pretty max-w-2xl mx-auto">
+              <p className="text-xl text-muted-foreground mb-6 text-pretty max-w-2xl mx-auto">
                 Stop the tedious manual entry. Our AI proposes expense entries for you to review and approve.
                 You stay in control while your assistant does the heavy lifting.
               </p>
 
+              <p className="text-base text-muted-foreground mb-10 text-pretty max-w-2xl mx-auto">
+                We&apos;re currently in Google Play closed testing — click below to join the waitlist for early access.
+              </p>
+
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="text-lg px-8" asChild>
-                  <Link href="https://drive.google.com/file/d/1q-_Q07lBgg8f0S_B11nVOp8cIu-FAAbx/view?usp=drive_link" target="_blank">
-                    Download for Android
+                  <Link href="https://docs.google.com/forms/d/e/1FAIpQLScC0LbwBFXHehqtXHZ-1k6Xom55tHa-lU8Mb4yuEFcyQO4poA/viewform" target="_blank">
+                    Join the Waitlist
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
@@ -199,8 +203,8 @@ export default function LandingPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" variant="secondary" className="text-lg px-8" asChild>
-                  <Link href="https://drive.google.com/file/d/1q-_Q07lBgg8f0S_B11nVOp8cIu-FAAbx/view?usp=drive_link" target="_blank">
-                    Download for Android
+                  <Link href="https://docs.google.com/forms/d/e/1FAIpQLScC0LbwBFXHehqtXHZ-1k6Xom55tHa-lU8Mb4yuEFcyQO4poA/viewform" target="_blank">
+                    Join the Waitlist
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
