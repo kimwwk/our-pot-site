@@ -4,6 +4,8 @@ import { ArrowRight, Bot, Receipt, CheckCircle, Smartphone, ShieldCheck, Sparkle
 import Link from "next/link"
 import Image from "next/image"
 
+const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=com.ourpot.app"
+
 export default function LandingPage() {
   return (
     <div className="min-h-screen">
@@ -27,7 +29,9 @@ export default function LandingPage() {
             <Link href="/privacy" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Privacy
             </Link>
-            <Button size="sm">Get the App</Button>
+            <Button size="sm" asChild>
+              <Link href={PLAY_STORE_URL} target="_blank">Get the App</Link>
+            </Button>
           </nav>
         </div>
       </header>
@@ -42,7 +46,7 @@ export default function LandingPage() {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
                 </span>
-                In Google Play closed testing
+                Now live on Google Play
               </div>
 
               <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance leading-tight">
@@ -57,13 +61,13 @@ export default function LandingPage() {
               </p>
 
               <p className="text-base text-muted-foreground mb-10 text-pretty max-w-2xl mx-auto">
-                Click below to join the waitlist for early access.
+                Available now on Android. Download it free from Google Play.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="text-lg px-8" asChild>
-                  <Link href="https://docs.google.com/forms/d/e/1FAIpQLScC0LbwBFXHehqtXHZ-1k6Xom55tHa-lU8Mb4yuEFcyQO4poA/viewform" target="_blank">
-                    Join the Waitlist
+                  <Link href={PLAY_STORE_URL} target="_blank">
+                    Get it on Google Play
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
@@ -71,17 +75,6 @@ export default function LandingPage() {
                   iOS Coming Soon
                 </Button>
               </div>
-
-              <p className="mt-6 text-sm text-muted-foreground">
-                Already an approved tester?{" "}
-                <Link
-                  href="https://drive.google.com/file/d/1q-_Q07lBgg8f0S_B11nVOp8cIu-FAAbx/view?usp=drive_link"
-                  target="_blank"
-                  className="underline underline-offset-4 hover:text-foreground transition-colors"
-                >
-                  Direct download
-                </Link>
-              </p>
             </div>
           </div>
         </section>
@@ -214,8 +207,8 @@ export default function LandingPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" variant="secondary" className="text-lg px-8" asChild>
-                  <Link href="https://docs.google.com/forms/d/e/1FAIpQLScC0LbwBFXHehqtXHZ-1k6Xom55tHa-lU8Mb4yuEFcyQO4poA/viewform" target="_blank">
-                    Join the Waitlist
+                  <Link href={PLAY_STORE_URL} target="_blank">
+                    Get it on Google Play
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
@@ -223,17 +216,6 @@ export default function LandingPage() {
                   iOS Coming Soon
                 </Button>
               </div>
-
-              <p className="mt-6 text-sm text-primary-foreground/70">
-                Already an approved tester?{" "}
-                <Link
-                  href="https://drive.google.com/file/d/1q-_Q07lBgg8f0S_B11nVOp8cIu-FAAbx/view?usp=drive_link"
-                  target="_blank"
-                  className="underline underline-offset-4 hover:text-primary-foreground transition-colors"
-                >
-                  Direct download
-                </Link>
-              </p>
             </Card>
           </div>
         </section>
