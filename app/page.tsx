@@ -26,6 +26,9 @@ export default function LandingPage() {
             >
               How It Works
             </Link>
+            <Link href="/feedback" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              Feedback
+            </Link>
             <Link href="/privacy" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Privacy
             </Link>
@@ -260,6 +263,11 @@ export default function LandingPage() {
                 <li>
                   <Link href="mailto:support@our-pot.com" className="hover:text-foreground transition-colors">
                     Contact Us
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/feedback" className="hover:text-foreground transition-colors">
+                    Feedback
                   </Link>
                 </li>
               </ul>
